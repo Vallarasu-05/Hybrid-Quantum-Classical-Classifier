@@ -1,0 +1,14 @@
+task,label,n_seeds,n_params,accuracy,precision,recall,f1,roc_auc,train_time_s
+setosa_vs_versicolor,Logistic regression,5,5,1.000 ± 0.000,1.000 ± 0.000,1.000 ± 0.000,1.000 ± 0.000,1.000 ± 0.000,0.0 ± 0.0
+setosa_vs_versicolor,Classical NN (4f),5,25,1.000 ± 0.000,1.000 ± 0.000,1.000 ± 0.000,1.000 ± 0.000,1.000 ± 0.000,0.0 ± 0.0
+versicolor_vs_virginica,Logistic regression,5,5,0.970 ± 0.027,1.000 ± 0.000,0.940 ± 0.055,0.968 ± 0.029,1.000 ± 0.000,0.0 ± 0.0
+versicolor_vs_virginica,Classical NN (4f),5,25,0.970 ± 0.045,0.967 ± 0.075,0.980 ± 0.045,0.971 ± 0.042,1.000 ± 0.000,0.0 ± 0.0
+versicolor_vs_virginica,Hybrid 4q L=1,5,37,0.970 ± 0.027,1.000 ± 0.000,0.940 ± 0.055,0.968 ± 0.029,1.000 ± 0.000,145.6 ± 4.2
+setosa_vs_versicolor,Hybrid 4q L=1,3,37,1.000 ± 0.000,1.000 ± 0.000,1.000 ± 0.000,1.000 ± 0.000,1.000 ± 0.000,143.5 ± 1.0
+versicolor_vs_virginica,Classical NN (2f),5,9,0.960 ± 0.022,1.000 ± 0.000,0.920 ± 0.045,0.958 ± 0.024,1.000 ± 0.000,0.0 ± 0.0
+versicolor_vs_virginica,Hybrid 2q L=1,5,15,0.960 ± 0.042,1.000 ± 0.000,0.920 ± 0.084,0.957 ± 0.046,1.000 ± 0.000,23.4 ± 0.3
+versicolor_vs_virginica,Hybrid 4q L=2,3,45,0.983 ± 0.029,0.970 ± 0.052,1.000 ± 0.000,0.984 ± 0.027,1.000 ± 0.000,297.3 ± 1.7
+versicolor_vs_virginica,Hybrid 4q L=1 (literal ansatz),3,33,0.983 ± 0.029,0.970 ± 0.052,1.000 ± 0.000,0.984 ± 0.027,1.000 ± 0.000,93.4 ± 0.4
+versicolor_vs_virginica,Hybrid 4q L=2 (literal ansatz),3,41,0.983 ± 0.029,0.970 ± 0.052,1.000 ± 0.000,0.984 ± 0.027,1.000 ± 0.000,221.6 ± 0.8
+versicolor_vs_virginica,Hybrid 4q L=1 train-shots=100,3,37,0.950 ± 0.050,0.944 ± 0.096,0.967 ± 0.058,0.952 ± 0.046,0.997 ± 0.006,144.7 ± 0.5
+versicolor_vs_virginica,Hybrid 4q L=1 train-shots=1024,3,37,0.950 ± 0.050,0.944 ± 0.096,0.967 ± 0.058,0.952 ± 0.046,0.997 ± 0.006,144.8 ± 0.9

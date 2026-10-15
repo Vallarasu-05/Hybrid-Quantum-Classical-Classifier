@@ -1,0 +1,11 @@
+# Versions this project was developed and tested with (Python 3.12).
+qiskit==2.5.2
+qiskit-machine-learning==0.9.1
+qiskit-aer==0.17.2
+torch==2.14.1
+numpy==2.4.4
+scikit-learn==1.8.0
+pandas==3.0.2
+matplotlib==3.10.8
+pylatexenc==2.10
+pytest==9.1.1
